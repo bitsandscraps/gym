@@ -7,7 +7,7 @@ from version import VERSION
 
 # Environment-specific dependencies.
 extras = {
-  'atari': ['atari_py~=0.2.0', 'opencv-python>=3.'],
+  'atari': ['atari_py~=0.2.0', 'opencv-python>=3.0'],
   'box2d': ['box2d-py~=2.3.5'],
   'classic_control': [],
   'mujoco': ['mujoco_py>=1.50, <2.0', 'imageio'],
